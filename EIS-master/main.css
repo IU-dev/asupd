@@ -1,0 +1,238 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+.desktop {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #5a5a5a;
+}
+
+.mobile {
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+    padding-left: 0rem;
+    padding-right: 0rem;
+    color: #5a5a5a;
+}
+
+.mw100 {
+    min-width: 100%;
+}
+
+.machine_text {
+    background: lightgrey;
+    font-family: Consolas;
+}
+
+.itogs {
+    max-width: 5em;
+}
+
+.fixed-5em {
+    max-width: 5em;
+}
+
+.fixed-15em {
+    max-width: 15em;
+}
+
+.fixed-25em {
+    max-width: 25em;
+}
+
+.fixed-35em {
+    max-width: 35em;
+}
+
+.padding-footer {
+    padding: 3px;
+}
+
+.quadro-img {
+    max-width:150px;
+    max-height:150px;
+    width:auto;
+    height:auto;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.stepper {
+    padding-top: 0px!important;
+    margin-top: 0px!important;
+}
+
+.fas {
+    line-height: unset;
+}
+
+.row-masonry {
+    data-masonry: '{"percentPosition": true }
+}
+
+.grid-item { width: 300px; }
+
+.limit-250 {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.carousel-item {
+    height: auto!important;
+    background-color: #ffffff!important;
+    box-shadow: 0 0 0 rgba(0, 0, 0, 0)!important;
+}
+
+.carousel {
+    margin-bottom: 0em!important;
+}
+
+.shadow {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Параметры тени */
+    padding: 10px;
+}
+
+.machine_text {
+    background: lightgrey;
+    font-family: Consolas;
+}
+
+.itogs {
+    width: 5em;
+}
+
+.fixed-5em {
+    width: 5em;
+}
+
+.fixed-15em {
+    width: 15em;
+}
+
+.fixed-25em {
+    width: 25em;
+}
+
+.fixed-35em {
+    width: 35em;
+}
+
+.hard-border-radius {
+    border-radius: 20px;
+}
+
+.align-left {
+    text-align: left;
+}
+
+.val {
+    vertical-align: middle;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+    bottom: .5em;
+}
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+}
+
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+    margin: 0;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+    height: 32rem;
+    background-color: #777;
+}
+
+.carousel-item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 32rem;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+.marketing h2 {
+    font-weight: 400;
+}
+
+.marketing .col-lg-4 p {
+    margin-right: .75rem;
+    margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+    margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    font-weight: 300;
+    line-height: 1;
+    letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+    /* Bump up size of carousel content */
+    .carousel-caption p {
+        margin-bottom: 1.25rem;
+        font-size: 1.25rem;
+        line-height: 1.4;
+    }
+
+    .featurette-heading {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 62em) {
+    .featurette-heading {
+        margin-top: 7rem;
+    }
+}
